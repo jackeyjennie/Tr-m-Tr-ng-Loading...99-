@@ -31,7 +31,7 @@
   "scripts": {
     "start": "node index.js"
   },
-  "author": "GlaceYT",
+  "author": "Jackey Jennie",
   "license": "XX",
   "engines": {
     "node": "18.x"
