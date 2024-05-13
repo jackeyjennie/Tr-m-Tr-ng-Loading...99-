@@ -39,7 +39,7 @@ module.exports = {
           iconURL: 'https://cdn.discordapp.com/attachments/1236646673912959076/1239594810504122428/Thiet_ke_chua_co_ten.png?ex=66437e21&is=66422ca1&hm=ac6322616ad908bfaa023390b1921b8cf69147a983bc4284b13109f53cbaff21&',
           url: 'https://discord.gg/loading99'
         })
-            .setDescription(`__**About me**__:\n\n ▶️ Myself Shiva aka GlaceYT. I am a discord bot developer and web developer. I love playing games, watching anime and building different webserver applications. You will get faster replies on instagram than other social media. Feel free to contact me!\n YouTube : ❤️ [RTX GAMING](${youtubeLink})\n Instagram : 💙 [rtxxgg](${InstagramLink})`)
+            .setDescription(``)
             .setTimestamp();
       interaction.reply({ embeds: [embed] }).catch(e => {});
 
