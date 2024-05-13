@@ -154,8 +154,8 @@ module.exports = {
   .setColor('#00ff00')
           .setAuthor({
             name: 'Album Created Sucessfully',
-            iconURL: 'https://cdn.discordapp.com/attachments/1213421081226903552/1215554404527116288/7762-verified-blue.gif',
-            url: 'https://discord.gg/FUEHs7RCqz'
+            iconURL: 'https://cdn.discordapp.com/attachments/1236646673912959076/1239594810504122428/Thiet_ke_chua_co_ten.png?ex=66437e21&is=66422ca1&hm=ac6322616ad908bfaa023390b1921b8cf69147a983bc4284b13109f53cbaff21&',
+            url: 'https://discord.gg/loading99'
           })
   .setDescription(`Hey <@${interaction.member.id}>, your album has been created successfully! 🎉`)
   .setTimestamp();
@@ -213,8 +213,8 @@ await interaction.editReply({
   .setColor('#00ff00')
           .setAuthor({
             name: 'Album Deleted Sucessfully',
-            iconURL: 'https://cdn.discordapp.com/attachments/1213421081226903552/1215554404527116288/7762-verified-blue.gif',
-            url: 'https://discord.gg/FUEHs7RCqz'
+            iconURL: 'https://cdn.discordapp.com/attachments/1236646673912959076/1239594810504122428/Thiet_ke_chua_co_ten.png?ex=66437e21&is=66422ca1&hm=ac6322616ad908bfaa023390b1921b8cf69147a983bc4284b13109f53cbaff21&',
+            url: 'https://discord.gg/loading99'
           })
   .setDescription(`Hey <@${interaction.member.id}>, your album has been Deleted successfully! ✨`)
   .setTimestamp();
@@ -254,8 +254,8 @@ await interaction.editReply({
         .setColor('#0099ff')
        .setAuthor({
           name: 'Song Added to Your Album',
-          iconURL: 'https://cdn.discordapp.com/attachments/1213421081226903552/1213430944007061574/6943_Verified.gif',
-          url: 'https://discord.gg/FUEHs7RCqz'
+          iconURL: 'https://cdn.discordapp.com/attachments/1236646673912959076/1239594810504122428/Thiet_ke_chua_co_ten.png?ex=66437e21&is=66422ca1&hm=ac6322616ad908bfaa023390b1921b8cf69147a983bc4284b13109f53cbaff21&',
+          url: 'https://discord.gg/loading99'
         })
         .setDescription(`Hey <@${interaction.member.id}>, your song has been Added successfully! ✨`)
         .setFooter({ text: 'YouTube - RTX GAMING' })
@@ -323,8 +323,8 @@ await interaction.editReply({
   .setColor('#00ff00')
           .setAuthor({
             name: 'Song Removed Sucessfully',
-            iconURL: 'https://cdn.discordapp.com/attachments/1213421081226903552/1215554404527116288/7762-verified-blue.gif',
-            url: 'https://discord.gg/FUEHs7RCqz'
+            iconURL: 'https://cdn.discordapp.com/attachments/1236646673912959076/1239594810504122428/Thiet_ke_chua_co_ten.png?ex=66437e21&is=66422ca1&hm=ac6322616ad908bfaa023390b1921b8cf69147a983bc4284b13109f53cbaff21&',
+            url: 'https://discord.gg/loading99'
           })
   .setDescription(`Hey <@${interaction.member.id}>, your song has been Removed successfully! ✨`)
   .setTimestamp();
@@ -403,8 +403,8 @@ await interaction.editReply({
           return new EmbedBuilder()
            .setAuthor({
           name: 'Album Songs',
-          iconURL: 'https://cdn.discordapp.com/attachments/1213421081226903552/1213422313035407360/8218-alert.gif',
-          url: 'https://discord.gg/FUEHs7RCqz'
+          iconURL: 'https://cdn.discordapp.com/attachments/1236646673912959076/1239594810504122428/Thiet_ke_chua_co_ten.png?ex=66437e21&is=66422ca1&hm=ac6322616ad908bfaa023390b1921b8cf69147a983bc4284b13109f53cbaff21&',
+          url: 'https://discord.gg/loading99'
         })
             .setThumbnail(interaction.user.displayAvatarURL({ size: 2048, dynamic: true }))
             .setColor(client.config.embedColor) 
@@ -500,8 +500,8 @@ await interaction.editReply({
         const embed = new EmbedBuilder()
           .setAuthor({
             name: 'Your Albums',
-            iconURL: 'https://cdn.discordapp.com/attachments/1213421081226903552/1213422313035407360/8218-alert.gif',
-            url: 'https://discord.gg/FUEHs7RCqz'
+            iconURL: 'https://cdn.discordapp.com/attachments/1236646673912959076/1239594810504122428/Thiet_ke_chua_co_ten.png?ex=66437e21&is=66422ca1&hm=ac6322616ad908bfaa023390b1921b8cf69147a983bc4284b13109f53cbaff21&',
+            url: 'https://discord.gg/loading99'
           })
           .setColor(client.config.embedColor)
           .setDescription(`\n${playlist?.playlist?.map(data =>
@@ -564,8 +564,8 @@ await interaction.editReply({
           return new EmbedBuilder()
             .setAuthor({
               name: 'Top Albums',
-              iconURL: 'https://cdn.discordapp.com/attachments/1213421081226903552/1213422313035407360/8218-alert.gif',
-              url: 'https://discord.gg/FUEHs7RCqz'
+              iconURL: 'https://cdn.discordapp.com/attachments/1236646673912959076/1239594810504122428/Thiet_ke_chua_co_ten.png?ex=66437e21&is=66422ca1&hm=ac6322616ad908bfaa023390b1921b8cf69147a983bc4284b13109f53cbaff21&',
+              url: 'https://discord.gg/loading99'
             })
             .setThumbnail(interaction.user.displayAvatarURL({ size: 2048, dynamic: true }))
             .setColor(client.config.embedColor)
@@ -643,8 +643,8 @@ await interaction.editReply({
             const embed = new EmbedBuilder()
               .setAuthor({
           name: 'Top Albums',
-          iconURL: 'https://cdn.discordapp.com/attachments/1213421081226903552/1213422313035407360/8218-alert.gif',
-          url: 'https://discord.gg/FUEHs7RCqz'
+          iconURL: 'https://cdn.discordapp.com/attachments/1236646673912959076/1239594810504122428/Thiet_ke_chua_co_ten.png?ex=66437e21&is=66422ca1&hm=ac6322616ad908bfaa023390b1921b8cf69147a983bc4284b13109f53cbaff21&',
+          url: 'https://discord.gg/loading99'
         })
               .setThumbnail(interaction.user.displayAvatarURL({ size: 2048, dynamic: true }))
               .setColor(client.config.embedColor)
