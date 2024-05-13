@@ -41,8 +41,8 @@ module.exports = {
         .setColor('#7645fe') 
         .setAuthor({
           name: 'Song Paused',
-          iconURL: 'https://cdn.discordapp.com/attachments/1156866389819281418/1157296313013117049/8061-purple-pause-icon.png?ex=651817ae&is=6516c62e&hm=4596c9fab9d8b66de8b5215b2750572ced352eed67440a1134550b846b5693b9&',
-          url: 'https://discord.gg/FUEHs7RCqz'
+          iconURL: 'https://cdn.discordapp.com/attachments/1236646673912959076/1239594810504122428/Thiet_ke_chua_co_ten.png?ex=66437e21&is=66422ca1&hm=ac6322616ad908bfaa023390b1921b8cf69147a983bc4284b13109f53cbaff21&',
+          url: 'https://discord.gg/loading99'
         })
         .setDescription(success ? '**The music has been Paused for a moment!!**' : '❌ Command Error: Unable to pause song')
         
