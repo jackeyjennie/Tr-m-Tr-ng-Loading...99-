@@ -29,8 +29,8 @@ module.exports = {
 
   run: async (client, interaction) => {
     try {
-      const youtubeLink = 'https://discord.gg/xQF9f9yUEM';
-      const InstagramLink = 'https://www.instagram.com/rtxxgg/';
+      const youtubeLink = 'https://discord.gg/loading99';
+      const InstagramLink = '';
       const { EmbedBuilder } = require('discord.js')
         const embed = new EmbedBuilder()
             .setColor('#da2a41')
