@@ -8,13 +8,13 @@ module.exports = async (client, queue, song) => {
       const embed = new EmbedBuilder()
       .setAuthor({
         name: 'Currently playing a Track',
-        iconURL: 'https://cdn.discordapp.com/attachments/1140841446228897932/1144671132948103208/giphy.gif', 
-        url: 'https://discord.gg/FUEHs7RCqz'
+        iconURL: 'https://cdn.discordapp.com/attachments/1236646673912959076/1239594810504122428/Thiet_ke_chua_co_ten.png?ex=66437e21&is=66422ca1&hm=ac6322616ad908bfaa023390b1921b8cf69147a983bc4284b13109f53cbaff21&', 
+        url: 'https://discord.gg/loading99'
     })
     .setDescription(`\n ‎ \n▶️ **Details :** **${song?.name}**\n▶️ **Enjoy the Ultimate Music Experience. ** \n▶️ **If link breaks playback try to give query.**`)
 .setImage(queue.songs[0].thumbnail)
     .setColor('#FF0000')
-    .setFooter({ text: 'More info - Use /help command [GlaceYT]' });
+    .setFooter({ text: 'More info - Use /help command [Trùm Trường Loading...99%]' });
      
       queue?.textChannel?.send({ embeds: [embed] }).catch(e => { });
     }
